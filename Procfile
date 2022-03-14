@@ -1,4 +1,4 @@
-release: python manage.py makemigrations --noinput
-release: python3 manage.py collectstatic --noinput
-release: python manage.py migrate --noinput
+release: python manage.py makemigrations 
+release: python manage.py collectstatic 
+release: python manage.py migrate 
 web: gunicorn api.wsgi 
