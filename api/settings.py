@@ -42,7 +42,6 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'form_builder',
-    'django_heroku'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
@@ -131,5 +129,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = str(BASE_DIR / 'staticfiles')
+
+
 
 # django_heroku.settings(locals())
