@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['evening-badlands-91713.herokuapp.com'
 ,'localhost',
+'0.0.0.0',
 '127.0.0.1']
 
 
