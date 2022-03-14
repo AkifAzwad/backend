@@ -131,6 +131,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
-STATICFILES_DIRS = str(BASE_DIR / 'static')
+STATICFILES_DIRS = [str(BASE_DIR / 'static')]
 
 # django_heroku.settings(locals())
